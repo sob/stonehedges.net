@@ -80,9 +80,4 @@ theme: cactus
 deploy:
   type: git
   repo: git@github.com:sob/stonehedges.net
-
-nav:
-  home: /
-  about: /about/
-  writing: /archives/
-  projects: https://github.com/sob
+  branch: gh-pages
