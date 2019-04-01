@@ -1,0 +1,21 @@
+general:
+  branches:
+    only:
+      - source
+machine:
+  timezone: America/Chicago
+  node:
+    version: 6.9.1
+test:
+  override:
+    - echo "skip test"
+deployment:
+  deploy:
+    branch: source
+    commands:
+      - git config --global user.name "CircleCI"
+      - git config --global user.email "circleci@example.org"
+      - sed -i'' "s~https://github.com/sob/stonehedges.net.git~https://${GH_TOKEN}:x-oauth-basic@github.com/sob/stonehedges.net.git~" _config.yml
+      - hexo clean
+      - hexo generate
+      - hexo deploy
