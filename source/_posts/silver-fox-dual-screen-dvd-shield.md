@@ -2,6 +2,8 @@
 title: Rear Entertainment in a Nissan NV 3500
 date: 2019-03-31 18:19:27
 tags: silver-fox, car audio, car video, nvidia shield, plex
+photos:
+- /images/
 ---
 
 The Silver Fox
@@ -28,6 +30,7 @@ Requirements
 
 Solution Overview
 ------
+{% asset_img "fancybox-image" "NV-3500-rear-entertainment.jpg" "overview of solution" %}
 
 Items Purchased
 ------
@@ -37,20 +40,20 @@ Items Purchased
 | Alpine PKG-RSE3HDMI | 2 | $699.99 | [Amazon](https://amzn.to/2HRWcPB) | 10.1" 16.9 overhead monitor with DVD|
 | Alpine SHS-N207 | 3 | $59.99 | [Amazon](https://amzn.to/2I3CnnU) | Dual source IR headphones for second monitor|
 | Scion OEM Style Rocker Switch | 2 | $14.99 | [Amazon](https://amzn.to/2V852f9) | Dash install for video mute & HDMI switch|
-| USB-C & QC 3.0 Car Outlets | 4 | $16.99 | Amazon | Installed in each row and 2 in back row|
-| 400w DC 12v to 110 AC Inverter | 2 | $18.99 | Amazon | Power inverters for shield units (make a loud screech on startup/shutdown) |
-| Nvidia Shield TV Gaming Edition | 1 | $189.99 | Amazon | Older kids system with a controller for possible gaming scenarios |
-| Nvidia Shield TV | 1 | $169.99 | Amazon | Younger kids system although the remote control has proven difficult for kids (3 & 5) to keep track of. |
-| Nvidia Shield Controller | 1 | $59.99 | Amazon | Second controller so older kids can play together - repurposed as an easier remote for younger kids |
-| HIDEit Shield 2 Wall Mount Bracket | 2 | $20.99 | Amazon | Wall-mount adapter for Nvidia Shield TV units |
-| PNY Pro Elite 512GB 400MB/sec USB 3.0 Flash | 2 | $119.99 | Amazon | fits about 45 1080p MKV files each |
-| 12v to 5v 3A DC/DC Converter | 1 | $7.99 | Amazon | step down for HDMI splitter & switcher |
-| OREI HDS-102 1x2 HDMI Splitter | 1 | $15.38 | Amazon | Splits HDMI signal from younger kids shield |
-| Kramer VS-211H HDMI Switcher | 1 | $65.00 | eBay | switches between HDMI splitter and older kids shield (used)|
-| 0.2m black crossover cable | 1 | $15.00 | Amazon | connects the Nvidia Shield units together and solves for Plex auth issues |
-| 15FT 4K HDMI Cable | 1 | $5.99 | Amazon | Cable from Shield A to first row screen |
-| 25ft 4K HDMI Cable | 1 | $8.50 | Amazon | Cable from HDMI switch to second row screen |
-|  1ft 4k HDMI Cable | 2 | $10.99 | Amazon | Cable from HDMI Switch to Shield B HDMI  / Shield A to HDMI Splitter |
+| USB-C & QC 3.0 Car Outlets | 4 | $16.99 | [Amazon](https://amzn.to/2OBqiYq) | Installed in each row and 2 in back row|
+| 400w DC 12v to 110 AC Inverter | 2 | $18.99 | [Amazon](https://amzn.to/2UlLCWZ) | Power inverters for shield units (make a loud screech on startup/shutdown) |
+| Nvidia Shield TV Gaming Edition | 1 | $189.99 | [Amazon](https://amzn.to/2WBrnC6) | Older kids system with a controller for possible gaming scenarios |
+| Nvidia Shield TV | 1 | $169.99 | [[Amazon](https://amzn.to/2FMCO34) | Younger kids system although the remote control has proven difficult for kids (3 & 5) to keep track of. |
+| Nvidia Shield Controller | 1 | $59.99 | [Amazon](https://amzn.to/2V46QG5) | Second controller so older kids can play together - repurposed as an easier remote for younger kids |
+| HIDEit Shield 2 Wall Mount Bracket | 2 | $20.99 | [Amazon](https://amzn.to/2ODf3OU) | Wall-mount adapter for Nvidia Shield TV units |
+| PNY Pro Elite 512GB 400MB/sec USB 3.0 Flash | 2 | $119.99 | [Amazon](https://amzn.to/2I65qan) | fits about 45 1080p MKV files each |
+| 12v to 5v 3A DC/DC Converter | 1 | $7.99 | [Amazon](https://amzn.to/2HR6Syd) | step down for HDMI splitter & switcher |
+| OREI HDS-102 1x2 HDMI Splitter | 1 | $15.38 | [Amazon](https://amzn.to/2OzXX4N) | Splits HDMI signal from younger kids shield |
+| Kramer VS-211H HDMI Switcher | 1 | $65.00 | [Amazon](https://amzn.to/2UoauNZ) | switches between HDMI splitter and older kids shield (used from eBay)|
+| 0.2m black crossover cable | 1 | $15.00 | [Amazon](https://amzn.to/2WCXAJc) | connects the Nvidia Shield units together and solves for Plex auth issues |
+| 15FT 4K HDMI Cable | 1 | $5.99 | [Amazon](https://amzn.to/2WyzFux) | Cable from Shield A to first row screen |
+| 25ft 4K HDMI Cable | 1 | $8.50 | [Amazon](https://amzn.to/2FEmj9d) | Cable from HDMI switch to second row screen |
+|  1ft 4k HDMI Cable | 2 | $10.99 | [Amazon](https://amzn.to/2V9k04G) | Cable from HDMI Switch to Shield B HDMI  / Shield A to HDMI Splitter |
 | 400w Capacitor | 1 | $90.00 | MobileAudio | |
 | Installation Labor | - | varies | varies | Took about 9-10 hours for a professional installation shop to install |
 
@@ -66,6 +69,8 @@ I tested a number of HDMI monitors from Amazon / eBay and in the end decided on 
 I had originally decided to purchase the Gaming edition Shield to allow the older kids to possibly play games on the device but this proved to be more difficult than anticipated on mobile hotspot tethering. The gaming controller however is a much better interface for the younger kids to use than the handheld remote
 
 The Alpine PKG-RSE3HDMI comes with (2) Single Source IR Headphones. I needed to order the Dual Source model above separately and didn't realize this until 2 days before departure. When the twins are older, they will be able to use the second set of Single Source IR headphones so this actually worked out nicely.
+
+I need to move from a 1x2 HDMI Splitter to a 1x3 or 1x4 HDMI splitter on the front display for the younger kids. They have a touch time navigating the Shield menu from time to time and so outputting that signal into the back of the Alpine head unit installed up front, would allow the passenger to use the Shield remote from the front seat to select a new movie to watch.
 
 Install Details
 ------
