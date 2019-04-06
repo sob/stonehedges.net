@@ -54,7 +54,7 @@ Items Purchased
 | 15FT 4K HDMI Cable | 1 | $5.99 | [Amazon](https://amzn.to/2WyzFux) | Cable from Shield A to first row screen |
 | 25ft 4K HDMI Cable | 1 | $8.50 | [Amazon](https://amzn.to/2FEmj9d) | Cable from HDMI switch to second row screen |
 |  1ft 4k HDMI Cable | 2 | $10.99 | [Amazon](https://amzn.to/2V9k04G) | Cable from HDMI Switch to Shield B HDMI  / Shield A to HDMI Splitter |
-| 400w Capacitor | 1 | $90.00 | MobileAudio | |
+| 200A Stinger Isolator / Relay | 1 | $90.00 | MobileAudio | |
 | Installation Labor | - | varies | varies | Took about 9-10 hours for a professional installation shop to install |
 
 Design Notes
