@@ -1,16 +1,18 @@
-general:
-  branches:
-    only:
-      - source
 machine:
-  timezone: America/Chicago
-  node:
-    version: 6.9.1
+  timezone:
+    America/Chicago
+
+  dependencies:
+    override:
+      - npm install
+      - npm install -g hexo-cli
+
 test:
   override:
     - echo "skip test"
+
 deployment:
-  deploy:
+  prod:
     branch: source
     commands:
       - git config --global user.name "CircleCI"
