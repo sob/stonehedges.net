@@ -13,8 +13,8 @@ jobs:
           keys:
             - npm-deps-{{ checksum "package.json" }}
       - run:
-        name: Install dependencies
-        command: npm install
+          name: Install dependencies
+          command: npm install
       - save_cache:
           key: npm-deps-{{ checksum "package.json" }}
           paths:
