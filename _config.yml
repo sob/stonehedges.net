@@ -81,4 +81,4 @@ deploy:
   type: git
   repo: git@github.com:sob/stonehedges.net
   branch: gh-pages
-  message: "Site updated: {{ now('YYYY-MM-DD HH:mm:ss') [ci skip] }}"
+  message: "Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }} [ci skip] "
