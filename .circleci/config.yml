@@ -6,9 +6,9 @@ jobs:
     filters:
       branches:
         only:
-          - master
+            - master
         ignore:
-          - gh-pages
+            - gh-pages
     working_directory: ~/stonehedges.net
     steps:
       - add_ssh_keys:
