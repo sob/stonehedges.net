@@ -5,6 +5,9 @@ jobs:
       - image: node:lts
     working_directory: ~/stonehedges.net
     steps:
+      - add_ssh_keys:
+          fingerprints:
+            - "be:c5:e5:8c:ae:32:35:15:d4:c7:f1:8c:de:34:11:bd"
       - checkout
       - run:
           name: Install Hexo CLI
