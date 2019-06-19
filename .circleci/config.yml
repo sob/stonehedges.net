@@ -1,23 +1,39 @@
-machine:
-  timezone:
-    America/Chicago
-
-  dependencies:
-    override:
-      - npm install
-      - npm install -g hexo-cli
-
-test:
-  override:
-    - echo "skip test"
-
-deployment:
-  prod:
-    branch: source
-    commands:
-      - git config --global user.name "CircleCI"
-      - git config --global user.email "circleci@example.org"
-      - sed -i'' "s~https://github.com/sob/stonehedges.net.git~https://${GH_TOKEN}:x-oauth-basic@github.com/sob/stonehedges.net.git~" _config.yml
-      - hexo clean
-      - hexo generate
-      - hexo deploy
+version: 2
+jobs:
+  build:
+    docker:
+      - image: node:lts
+    working_directory: ~/stonehedges.net
+    steps:
+      - checkout
+      - run:
+          name: Install Hexo CLI
+          command: npm install -g hexo-cli
+      - restore_Cache:
+          keys:
+            - npm-deps-{{ checksum "package.json" }}
+      - run:
+        name: Install dependencies
+        command: npm install
+      - save_cache:
+          key: npm-deps-{{ checksum "package.json" }}
+          paths:
+            - node_modules
+      - run:
+          name: Configure GitHub publishing name
+          command: git config --global user.name "Circle CI"
+      - run:
+          name: Configure GitHub publishing email
+          command: git config --global user.email "circleci@example.org"
+      - run:
+          name: Configure GitHub publishing credentials
+          command: sed -i'' "s~https://github.com/sob/stonehedges.net.git~https://${GH_TOKEN}:x-oauth-basic@github.com/sob/stonehedges.net.git~" _config.yml
+      - run:
+          name: Clean static site
+          command: hexo clean
+      - run:
+          name: Generate static site
+          command: hexo generate
+      - run:
+          name: Deploy to GH Pages
+          command: hexo deploy
