@@ -1,7 +1,12 @@
 ---
 title: Rear Entertainment in a Nissan NV 3500
 date: 2019-03-31 18:19:27
-tags: silver-fox, car audio, car video, nvidia shield, plex
+tags:
+- silver-fox
+- car audio
+- car video
+- nvidia shield
+- plex
 photos:
 - /images/
 ---
