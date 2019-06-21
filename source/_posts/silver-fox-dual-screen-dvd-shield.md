@@ -41,7 +41,7 @@ Items Purchased
 ------
 
 | Item | Qty. | Cost | Source | Notes |
-| --------------------|:------------:|:--------------|
+| -------------------- | :------------: | :-------------- |
 | Alpine PKG-RSE3HDMI | 2 | $699.99 | [Amazon](https://amzn.to/2HRWcPB) | 10.1" 16.9 overhead monitor with DVD|
 | Alpine SHS-N207 | 3 | $59.99 | [Amazon](https://amzn.to/2I3CnnU) | Dual source IR headphones for second monitor|
 | Scion OEM Style Rocker Switch | 2 | $14.99 | [Amazon](https://amzn.to/2V852f9) | Dash install for video mute & HDMI switch|
