@@ -76,10 +76,17 @@ pygmentscodefencesguesssyntax = true
     weight = "5"
     url = "https://disqus.com/"
 [[params.social]]
-    name = "Email"
-    icon = "fab fa-envelope-o"
+    name = "Facebook"
+    icon = "fas fa-facebook"
     weight = "6"
-    url = "mailto:sean@obrienfamily.org"
+    url = "https://facebook.com/sobrien5600/"
+[[params.social]]
+    name = "RSS"
+    icon = "fas fa-rss"
+    weight = "7"
+    url = "https://stonehedges.net/index.xml"
+    rel = "alternate"
+    type = "application/rss+xml"
 
 [languages]
     [languages.en]
