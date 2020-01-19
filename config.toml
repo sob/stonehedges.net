@@ -1,0 +1,113 @@
+baseURL = "https://example.com"
+title = "STONEHEDGES.NET"
+theme = "hugo-coder"
+paginate = 10
+canonifyurls = true
+
+languageCode = "en"
+DefaultContentLanguage = "en"
+
+enableInlineShortcodes = true
+pygmentsstyle = "b2"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+[params]
+	author = "Sean O'Brien"
+    description = "Sean O'Brien's personal website"
+    keywords = "technologist, father, husband, Microsoft, Azure, personal"
+    info = "Husband, Father, Technologist"
+    footercontent = ""
+    avatarurl = "images/avatar.jpg"
+
+    dateformat = "January 2, 2006"
+
+    hideCredits = false
+    hideCopyright = false
+    since = 2019
+
+    commit = "https://github.com/sob/stonehedges.net/tree"
+
+    rtl = false
+
+    colorscheme = "auto"
+
+    maxSeeAlsoItems = 5
+
+    custom_css = []
+
+    custom_js = []
+    # logo = "//blog.ertuil.top/avater.png"
+    bio = """
+    <p> My name is Sean O'Brien and I'm a husband and father to six wonderful children. I'm originally from South Lake Tahoe, California. I currently work at Microsoft as an Azure Specialist, where I have responsibility from an Apps & Infrastructure perspective for a handful of named manufacturing accounts across Illinois and Wisconsin. </p>
+    <br />
+    <p> I've been working in technology since I was 15 years old and got a job at the local computer shop turned dial-up Internet Service Provider. Since then I've worked as a software engineer, <a href="https://yahoo.com/">technology manager</a>, <a href="https://yp.com/">IT Director</a>, <a href="https://streamingmediahosting.com/">founded a hosting company</a>, and prior to my current role at Microsoft, I worked as a Technology Strategist advising IT leadership at a Fortune 50 Insurance company.</p>
+    """
+    copyright = "Copyright © 2008–2020, Sean O'Brien; all rights reserved."
+
+[taxonimies]
+    category = "categories"
+    series = "series"
+    tag = "tags"
+
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github"
+    weight = 1
+    url = "https://github.com/sob/"
+[[params.social]]
+    name = "Twitter"
+    icon = "fab fa-twitter"
+    weight = "2"
+    url = "https://twitter.com/_sobrien/"
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fab fa-linkedin"
+    weight = "3"
+    url = "https://www.linkedin.com/in/sobrien56"
+[[params.social]]
+    name = "Instagram"
+    icon = "fab fa-instagram"
+    weight = "4"
+    url = "https://www.instagram.com/sobrien56/"
+[[params.social]]
+    name = "Discord"
+    icon = "fab fa-discord"
+    weight = "5"
+    url = "https://disqus.com/"
+[[params.social]]
+    name = "Email"
+    icon = "fab fa-envelope-o"
+    weight = "6"
+    url = "mailto:sean@obrienfamily.org"
+
+[languages]
+    [languages.en]
+        languagename = "English"
+
+        [languages.en.menu]
+            [[languages.en.menu.main]]
+            name = "about"
+            weight = "1"
+            url = "about/"
+
+            [[languages.en.menu.main]]
+            name = "posts"
+            weight = "2"
+            url = "posts/"
+
+            [[languages.en.menu.main]]
+            name = "projects"
+            weight = "3"
+            url = "projects/"
+
+            [[languages.en.menu.main]]
+            name = "contact"
+            weight = "4"
+            url = "contact/"
+
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
