@@ -11,6 +11,7 @@ enableInlineShortcodes = true
 pygmentsstyle = "b2"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
+baseURL = "https://stonehedges.net"
 
 [params]
 	author = "Sean O'Brien"
