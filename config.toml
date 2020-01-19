@@ -1,4 +1,4 @@
-baseURL = "https://example.com"
+baseURL = "https://stonehedges.net"
 title = "STONEHEDGES.NET"
 theme = "hugo-coder"
 paginate = 10
