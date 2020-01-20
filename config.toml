@@ -77,9 +77,9 @@ pygmentscodefencesguesssyntax = true
     url = "https://disqus.com/"
 [[params.social]]
     name = "Facebook"
-    icon = "fas fa-facebook"
+    icon = "fab fa-facebook-f"
     weight = "6"
-    url = "https://facebook.com/sobrien5600/"
+    url = "https://facebook.com/sobrien56/"
 [[params.social]]
     name = "RSS"
     icon = "fas fa-rss"
