@@ -71,19 +71,14 @@ pygmentscodefencesguesssyntax = true
     weight = "4"
     url = "https://www.instagram.com/sobrien56/"
 [[params.social]]
-    name = "Discord"
-    icon = "fab fa-discord"
-    weight = "5"
-    url = "https://disqus.com/"
-[[params.social]]
     name = "Facebook"
     icon = "fab fa-facebook-f"
-    weight = "6"
+    weight = "5"
     url = "https://facebook.com/sobrien56/"
 [[params.social]]
     name = "RSS"
     icon = "fas fa-rss"
-    weight = "7"
+    weight = "6"
     url = "https://stonehedges.net/index.xml"
     rel = "alternate"
     type = "application/rss+xml"
