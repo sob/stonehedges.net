@@ -12,6 +12,11 @@ jobs:
         with:
           submodules: true
 
+      - name: Configure GIT Environment
+        run: |
+          export GIT_COMMIT_SHA=`git rev-parse --verify HEAD`
+          export GIT_COMMIT_SHA_SHORT=`git rev-parse --short HEAD`
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
